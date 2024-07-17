@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Cypress configuration and logs
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+
+# Cypress environment variables
+cypress.env.json
+
+# Cypress output
+results/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing framework directories
+/coverage
+/.nyc_output
+/lerna-debug.log
+
+# Production
+/build
+/dist
+
+# Misc
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.pid.lock
